@@ -15,12 +15,15 @@ class Square():
                     setattr(self, key, value)
 
     def area_of_my_square(self):
+        """Area"""
         return self.width * self.height
 
     def permiter_of_my_square(self):
+        """Perimeter"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """string representation"""
         return "{}/{}".format(self.width, self.height)
 
 
