@@ -1,7 +1,11 @@
 #!/usr/bin/python3
+"""
+Module
+"""
+
 
 class square():
-    
+    """ Square """
     width = 0
     height = 0
 
